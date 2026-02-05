@@ -173,5 +173,11 @@ pytest
 ### Latest test output
 
 ```
-<paste test output here>
+$ pytest
+--: line 1: pytest: command not found
+
+$ python3 -m pip install -r requirements.txt -r requirements-dev.txt
+ERROR: Failed building wheel for hnswlib
+ERROR: Could not build wheels for hnswlib, which is required to install pyproject.toml-based projects
+```
 ```
