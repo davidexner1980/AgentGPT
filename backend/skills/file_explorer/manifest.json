@@ -1,0 +1,7 @@
+{
+  "name": "file_explorer",
+  "description": "Read-only file explorer for allowlisted paths.",
+  "required_permissions": ["file_read"],
+  "tools": ["read_file"],
+  "entrypoint": "skill.py"
+}

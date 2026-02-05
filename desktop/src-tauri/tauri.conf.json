@@ -1,0 +1,29 @@
+{
+  "productName": "Local AI Assistant",
+  "version": "0.1.0",
+  "identifier": "com.local.aiassistant",
+  "build": {
+    "devUrl": "http://localhost:5173",
+    "frontendDist": "../../ui/dist"
+  },
+  "app": {
+    "withGlobalTauri": true,
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": ["msi"],
+    "icon": ["icons/icon.svg"]
+  },
+  "tray": {
+    "iconPath": "icons/icon.svg",
+    "iconAsTemplate": true
+  },
+  "plugins": {
+    "globalShortcut": {
+      "shortcuts": ["Alt+Space"]
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "knowledge_ingest",
+  "description": "Add documents to the local RAG index.",
+  "required_permissions": ["file_read", "rag"],
+  "tools": ["rag_ingest"],
+  "entrypoint": "skill.py"
+}
