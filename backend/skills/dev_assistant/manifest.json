@@ -1,0 +1,7 @@
+{
+  "name": "dev_assistant",
+  "description": "Run allowlisted development commands like git status and tests.",
+  "required_permissions": ["terminal"],
+  "tools": ["run_command"],
+  "entrypoint": "skill.py"
+}
